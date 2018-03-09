@@ -14,7 +14,7 @@ npm install
 
 ## Usage
 
-Start web server:
+Autotests:
 ````bash
-npm run start
+npm test:watch
 ````
