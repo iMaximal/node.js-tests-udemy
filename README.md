@@ -4,7 +4,7 @@ Study project.
 
 "The Complete Node.js Developer Course (2nd Edition) " (Udemy).
 
-Technologies: ES6, Node.JS, Express, Mocha.
+Technologies: ES6, Node.JS, Express, Mocha, Expect, Supertest, Rewire.
 
 ## Install
 
