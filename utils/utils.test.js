@@ -7,11 +7,29 @@ it('it should add two numbers', () => {
   expect(res).toBe(44).toBeA('number')
 })
 
+
+it('should async add two numbers', (done) => {
+  utils.asyncAdd(4, 3, (sum) => {
+    expect(sum).toBe(7).toBeA('number')
+    done()
+  })
+})
+
+
 it('should square a number', () => {
   const res = utils.square(3)
 
   expect(res).toBe(9).toBeA('number')
 })
+
+
+it('should async square a number', (done) => {
+  utils.asyncSquare(5, (res) => {
+    expect(res).toBe(25).toBeA('number')
+    done()
+  })
+})
+
 
 // should verify first and last names are set
 // assert it includes firstName and lastName with proper values
