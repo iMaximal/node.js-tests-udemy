@@ -1,3 +1,8 @@
 const add = (a, b) => a + b
 
-module.exports.add = add
+const square = (x) => x * x
+
+module.exports = {
+  add,
+  square,
+}
