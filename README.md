@@ -18,3 +18,8 @@ Autotests:
 ````bash
 npm test:watch
 ````
+
+Start web server:
+````bash
+npm run dev
+````
